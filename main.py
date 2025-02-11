@@ -108,12 +108,12 @@ def main():
             env = CADEnvironment(target_shape=target_shape)
             agent = SystematicCuttingAgent()
 
-            st.header("Training")
+            st.header("Visualisation")
 
-            if st.button("Train Model"):
-                with st.spinner("Training in progress..."):
+            if st.button("Get Steps"):
+                with st.spinner("Please Wait..."):
                     train_model(env, agent)
-                    st.success("Training completed!")
+                    st.success("Completed!")
 
 if __name__ == "__main__":
     main()
