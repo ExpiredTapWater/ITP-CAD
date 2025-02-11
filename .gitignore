@@ -7,5 +7,4 @@ cad/
 env/
 venv/
 ENV/
-*.dxf
 .DS_Store
